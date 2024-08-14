@@ -9,17 +9,27 @@
   }
 }
 
+.images {
+  margin: 3rem;
+}
+
+@media (max-width: 600px) {
+  .images {
+    margin: 3rem 1.5rem;
+  }
+}
+
 .section {
   padding: 3rem 3rem;
-  border-bottom: 1px solid gray;
-  border-top: 1px solid gray;
+  border-bottom: 1px solid #222;
+  border-top: 1px solid #222;
 }
 
 @media (max-width: 600px) {
   .section {
     padding: 3rem 1.5rem;
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
+    border-bottom: 1px solid #222;
+    border-top: 1px solid #222;
   }
 }
 
