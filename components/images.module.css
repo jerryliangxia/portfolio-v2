@@ -1,0 +1,34 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.imageContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 0.5px solid #222;
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 1.5rem;
+  }
+
+  .gallery::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+
+  .imageContainer {
+    flex: 0 0 auto;
+    width: 80%;
+  }
+}
