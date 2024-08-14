@@ -20,25 +20,17 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>
-          Hi, I'm Jerry. I'm a software engineer with experience in Three.js and
-          full-stack web dev.
-        </p>
-        <p>
-          (This is my <Link href="/posts/first-post">first post</Link>.)
-        </p>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+      <section className={utilStyles.section}>
+        <h1 className={utilStyles.heading}>Blog</h1>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
+              <Date className={utilStyles.blogDate} dateString={date} />
+              <div className={utilStyles.blogTitle}>
+                <Link className={utilStyles.link} href={`/posts/${id}`}>
+                  {title}
+                </Link>
+              </div>
             </li>
           ))}
         </ul>
