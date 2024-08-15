@@ -10,8 +10,8 @@ const imageList = [
   ["/images/r3f-project.gif", "https://r3f-project.vercel.app/"],
   ["/images/trappist-1.gif", "https://fp-experience.vercel.app/"],
   ["/images/sb-129.gif", "https://www.sb-129.com/"],
-  ["/images/venom-game.gif", "https://www.jerryxia.com/game"],
-  ["/images/mask.gif", "https://three-js-portfolio-zeta.vercel.app/"],
+  // ["/images/venom-game.gif", "https://www.jerryxia.com/game"],
+  // ["/images/mask.gif", "https://three-js-portfolio-zeta.vercel.app/"],
 ];
 
 export async function getStaticProps() {
