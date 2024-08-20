@@ -32,6 +32,10 @@ export default function Home({ allPostsData }) {
       <div className={utilStyles.images}>
         <Images images={imageList} />
       </div>
+      <section className={utilStyles.lowerSection}>
+        <h1 className={utilStyles.heading}>Three.js</h1>
+        <p className={utilStyles.paragraph}>Three recent projects using R3F.</p>
+      </section>
       <section className={utilStyles.section}>
         <h1 className={utilStyles.heading}>Blog</h1>
         <ul className={utilStyles.list}>
