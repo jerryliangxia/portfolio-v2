@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Layout from "../../components/layout";
+import Link from "next/link";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Date from "../../components/date";
 import utilStyles from "../../styles/utils.module.css";
@@ -25,17 +25,23 @@ export async function getStaticPaths() {
 
 export default function Post({ postData }) {
   return (
-    <Layout>
+    <>
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article className={utilStyles.header}>
-        <h1 className={utilStyles.heading}>{postData.title}</h1>
+      <article className={utilStyles.article}>
+        <Link className={utilStyles.blogLink} href="/">
+          ← Back to home
+        </Link>
+        <h1 className={utilStyles.blogHeading}>{postData.title}</h1>
         <div className={utilStyles.paragraph}>
           <Date dateString={postData.date} />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div
+          className="article"
+          dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+        />
       </article>
-    </Layout>
+    </>
   );
 }

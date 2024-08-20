@@ -13,8 +13,8 @@ body {
 }
 
 a {
-  color: #0070f3;
-  text-decoration: none;
+  color: #000;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -24,4 +24,16 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+.article > h1 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 600;
+  /* text-decoration: underline; */
+}
+
+.article > img {
+  width: 100%;
+  height: auto;
 }

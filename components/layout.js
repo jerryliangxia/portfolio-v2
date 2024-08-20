@@ -36,7 +36,6 @@ export default function Layout({ children, home }) {
           <></>
         )}
       </header>
-      <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
           <Link className={utilStyles.link} href="/">
@@ -44,6 +43,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <main>{children}</main>
     </div>
   );
 }
