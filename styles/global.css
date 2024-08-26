@@ -6,6 +6,26 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 16px;
+  --black: #000;
+  --white: #fff;
+  --gray: #222;
+}
+
+.light-mode {
+  --background-color: var(--white);
+  --text-color: var(--black);
+}
+
+.dark-mode {
+  --background-color: var(--black);
+  --text-color: var(--white);
+}
+
+html,
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  /* transition: background-color 0.5s ease, color 0.5s ease; */
 }
 
 * {
@@ -13,12 +33,9 @@ body {
 }
 
 a {
-  color: #000;
+  color: var(--text-color);
   text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: underline;
+  /* transition: color 0.5s ease; */
 }
 
 img {
@@ -26,12 +43,14 @@ img {
   height: auto;
   display: block;
   margin: 0 auto;
-  border: 0.5px solid #222;
+  border: 0.5px solid var(--gray);
 }
 
 .article > h1 {
+  color: var(--text-color);
   font-size: 1rem;
   margin: 0;
   font-weight: normal;
   text-decoration: underline;
+  /* transition: color 0.5s ease; */
 }

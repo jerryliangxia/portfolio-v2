@@ -30,9 +30,7 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article className={utilStyles.article}>
-        <Link className={utilStyles.link} href="/">
-          ← Back to home
-        </Link>
+        <Link href="/">← Back to home</Link>
         <h1 className={utilStyles.blogHeading}>{postData.title}</h1>
         <div className={utilStyles.paragraph}>
           <Date dateString={postData.date} />

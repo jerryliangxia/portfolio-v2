@@ -14,6 +14,7 @@ const Images = ({ images }) => {
               className={styles.image}
               width={600}
               height={338}
+              unoptimized
             />
           </a>
         </div>
