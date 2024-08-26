@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import ThemeToggle from "./toggle";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
@@ -29,8 +29,11 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <h1 className={utilStyles.heading}>{name}</h1>
-            <p className={utilStyles.paragraph}>{desc}</p>
+            <div className={styles.headerContent}>
+              <h1 className={utilStyles.heading}>{name}</h1>
+              <p className={utilStyles.paragraph}>{desc}</p>
+            </div>
+            <ThemeToggle />
           </>
         ) : (
           <></>
