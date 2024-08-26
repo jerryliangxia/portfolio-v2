@@ -14,15 +14,11 @@ body {
 .light-mode {
   --background-color: var(--white);
   --text-color: var(--black);
-  --link-color: var(--black);
-  --border-color: var(--gray);
 }
 
 .dark-mode {
   --background-color: var(--black);
   --text-color: var(--white);
-  --link-color: var(--white);
-  --border-color: var(--white);
 }
 
 html,
@@ -37,13 +33,7 @@ body {
 }
 
 a {
-  color: var(--link-color);
-  text-decoration: underline;
-  /* transition: color 0.5s ease; */
-}
-
-a:hover {
-  color: var(--link-color);
+  color: var(--text-color);
   text-decoration: underline;
   /* transition: color 0.5s ease; */
 }
@@ -53,7 +43,7 @@ img {
   height: auto;
   display: block;
   margin: 0 auto;
-  border: 0.5px solid #222;
+  border: 0.5px solid var(--gray);
 }
 
 .article > h1 {

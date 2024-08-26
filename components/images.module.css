@@ -9,13 +9,6 @@
   overflow: hidden;
 }
 
-.image {
-  width: 100%;
-  height: auto;
-  display: block;
-  border: 0.5px solid #222;
-}
-
 @media (max-width: 600px) {
   .gallery {
     display: flex;
