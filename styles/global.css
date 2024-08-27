@@ -9,16 +9,19 @@ body {
   --black: #000;
   --white: #fff;
   --gray: #222;
+  --light-gray: #f0f0f0;
 }
 
 .light-mode {
   --background-color: var(--white);
   --text-color: var(--black);
+  --code-background: var(--light-gray);
 }
 
 .dark-mode {
   --background-color: var(--black);
   --text-color: var(--white);
+  --code-background: var(--gray);
 }
 
 html,
@@ -43,7 +46,6 @@ img {
   height: auto;
   display: block;
   margin: 0 auto;
-  border: 0.5px solid var(--gray);
 }
 
 .article > h1 {
@@ -53,4 +55,32 @@ img {
   font-weight: normal;
   text-decoration: underline;
   /* transition: color 0.5s ease; */
+}
+
+.article > h2 {
+  color: var(--text-color);
+  font-size: 1rem;
+  margin: 0;
+  font-weight: normal;
+  text-decoration: underline;
+  /* transition: color 0.5s ease; */
+}
+
+.article > pre {
+  color: var(--text-color);
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 1rem;
+  overflow-x: auto;
+  background-color: var(--code-background);
+}
+
+.article > ul > li > pre,
+.article > ol > li > pre {
+  color: var(--text-color);
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 1rem;
+  overflow-x: auto;
+  background-color: var(--code-background);
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./images.module.css";
+import utilsStyles from "../styles/utils.module.css";
 
 const Images = ({ images }) => {
   return (
@@ -11,7 +12,7 @@ const Images = ({ images }) => {
             <Image
               src={image}
               alt={`Gallery image ${index + 1}`}
-              className={styles.image}
+              className={utilsStyles.image}
               width={600}
               height={338}
               unoptimized
