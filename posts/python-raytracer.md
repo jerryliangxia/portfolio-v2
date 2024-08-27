@@ -3,7 +3,7 @@ title: "Python Raytracer"
 date: "2024-08-27"
 ---
 
-This Python raytracer implements a robust rendering system capable of producing realistic images with various optical effects. Rendering is split into two classes, `Scene` and `Geometry` classes. The `Scene` class manages the rendering process and contains all the necessary components such as camera settings, lighting, materials, and scene objects.
+This Python raytracer implements a robust rendering system capable of producing realistic images with various optical effects. Rendering is split into two classes, `Scene` and `Geometry` classes. The `Scene` class manages the casting and tracing of rays, while the `Geometry` class handles the intersection of rays with scene objects.
 
 You can find the full code for this raytracer [here](https://github.com/jerryliangxia/PythonRayTracer).
 
@@ -274,4 +274,4 @@ With the addition of a simple [quadric](http://skuld.bmsc.washington.edu/people/
 
 # Conclusion
 
-This raytracer demonstrates the power and flexibility of ray tracing, creating realistic images with a set of simple rules. This is not everything that can be done with ray tracing - there are a lot more. With procedures in place to handle HDR mapping, soft shadows, UV mapping there is much to return to for this project.
+This raytracer demonstrates the power of creating realistic images with a set of simple rules. This is not everything that can be done with ray tracing; with further development, procedures to handle HDR mapping, soft shadows, UV mapping and more can be implemented.
