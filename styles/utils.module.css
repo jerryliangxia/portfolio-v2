@@ -33,6 +33,10 @@
   border-top: 1px solid #222;
 }
 
+.divider {
+  border-bottom: 1px solid #222;
+}
+
 .lowerSection {
   padding: 0 0 3rem 3rem;
 }

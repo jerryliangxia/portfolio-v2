@@ -14,6 +14,12 @@ const imageList = [
   // ["/images/mask.gif", "https://three-js-portfolio-zeta.vercel.app/"],
 ];
 
+const paddleImageList = [
+  ["/images/paddle/paddle-1.gif", "https://paddle-olive.vercel.app/"],
+  ["/images/paddle/paddle-2.png", "https://paddle-olive.vercel.app/"],
+  ["/images/paddle/paddle-3.png", "https://paddle-olive.vercel.app/"],
+];
+
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
@@ -29,6 +35,16 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <div className={utilStyles.images}>
+        <Images images={paddleImageList} />
+      </div>
+      <section className={utilStyles.lowerSection}>
+        <h1 className={utilStyles.heading}>Paddle</h1>
+        <p className={utilStyles.paragraph}>
+          Most recent project. Based off of Paper Mill Lake in Nova Scotia.
+        </p>
+      </section>
+      <div className={utilStyles.divider} />
       <div className={utilStyles.images}>
         <Images images={imageList} />
       </div>
