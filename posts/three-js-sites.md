@@ -1,6 +1,6 @@
 ---
 title: "Three.js sites"
-date: "2024-08-15"
+date: "2024-10-06"
 ---
 
 This past year I've been working with Three.js. Here are a few of the projects I made.
