@@ -41,6 +41,14 @@ Afterwards props and enemy functionality were added. Squidward can shoot, kick a
 
 ![SB-129](/images/three-js-sites/sb-129.png)
 
+# [Paddle](https://paddle-olive.vercel.app/)
+
+![Paddle reference](/images/paddle/paddle-ref.jpeg)
+
+This site is a relaxing trip through childhood memories.
+
+![Paddle](/images/paddle/paddle-4.png)
+
 # Onwards
 
 In the future it's planned to create experiences with a simpler aesthetic, with a more meditative focus.

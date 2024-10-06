@@ -41,7 +41,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.lowerSection}>
         <h1 className={utilStyles.heading}>Paddle</h1>
         <p className={utilStyles.paragraph}>
-          Most recent project. Based off of Paper Mill Lake in Nova Scotia.
+          Based off Paper Mill Lake in Nova Scotia.
         </p>
       </section>
       <div className={utilStyles.divider} />
@@ -52,6 +52,7 @@ export default function Home({ allPostsData }) {
         <h1 className={utilStyles.heading}>Three.js</h1>
         <p className={utilStyles.paragraph}>Three recent projects using R3F.</p>
       </section>
+      <div className={utilStyles.divider} />
       <section className={utilStyles.section}>
         <h1 className={utilStyles.heading}>Blog</h1>
         <ul className={utilStyles.list}>
