@@ -39,6 +39,12 @@ export default function Post({ postData }) {
           className="article"
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
         />
+        <button
+          onClick={() => window.scrollTo(0, 0)}
+          className={utilStyles.backToTop}
+        >
+          ↑ Back to top
+        </button>
       </article>
     </>
   );

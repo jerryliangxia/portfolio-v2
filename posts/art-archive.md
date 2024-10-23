@@ -3,13 +3,13 @@ title: "Art archive"
 date: "2024-10-23"
 ---
 
-These are a collection of art pieces I did in 2019.
+This is a collection of art pieces I did in 2019.
 
-## Blind Contour Hands
+## Blind Contours
 
 ![Blind Contour Hand](/images/art-archive/bchand.png)
 
-## MC Escher Hands
+## M.C. Escher Forgery
 
 ![MC Escher Hands](/images/art-archive/mchands.png)
 
@@ -19,12 +19,24 @@ These are a collection of art pieces I did in 2019.
 
 ![Color Study 2](/images/art-archive/color2.png)
 
-## Charcoal Studies
+<!-- ![Color Study 3](/images/art-archive/color3.png) -->
+
+# Pencil
+
+![Tiger](/images/art-archive/tiger.png)
+
+## Charcoal
 
 ![Charcoal Study](/images/art-archive/char1.png)
 
-![Charcoal Previews](/images/art-archive/char0.png)
+<!-- ![Charcoal Study 2](/images/art-archive/char4.png) -->
+
+17' by 11':
 
 ![Charcoal Portrait](/images/art-archive/char2.png)
 
 ![Charcoal Portrait 2](/images/art-archive/char3.png)
+
+Reference images:
+
+![Charcoal Previews](/images/art-archive/char0.png)
