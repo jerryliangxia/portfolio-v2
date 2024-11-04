@@ -31,12 +31,12 @@ This is a collection of art pieces I did in 2019.
 
 <!-- ![Charcoal Study 2](/images/art-archive/char4.png) -->
 
-17' by 11':
+17' x 11':
 
 ![Charcoal Portrait](/images/art-archive/char2.png)
 
 ![Charcoal Portrait 2](/images/art-archive/char3.png)
 
-Reference images:
+<!-- Reference images:
 
-![Charcoal Previews](/images/art-archive/char0.png)
+![Charcoal Previews](/images/art-archive/char0.png) -->
