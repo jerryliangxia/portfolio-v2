@@ -3,6 +3,12 @@ title: "Python Raytracer"
 date: "2024-08-27"
 ---
 
+<!-- After building a rasterizer for `.obj` files:
+
+![Rasterizer](/images/python-raytracer/rasterizer.gif)
+
+My focus shifted to building a raytracer.  -->
+
 This Python raytracer implements a robust rendering system capable of producing realistic images with various optical effects. Rendering is split into two classes, `Scene` and `Geometry` classes. The `Scene` class manages the casting and tracing of rays, while the `Geometry` class handles the intersection of rays with scene objects.
 
 You can find the full code for this raytracer [here](https://github.com/jerryliangxia/PythonRayTracer).
