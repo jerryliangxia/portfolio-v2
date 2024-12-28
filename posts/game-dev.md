@@ -3,7 +3,7 @@ title: "Adventures in game dev"
 date: "2024-08-26"
 ---
 
-This past year I've been delving into game dev, and have worked on a pathfinding and NPC AI project.
+This past year I've worked on two AI projects.
 
 # Playing Adversarial Chairs with A-Star Pathfinding
 
