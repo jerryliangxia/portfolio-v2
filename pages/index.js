@@ -7,15 +7,27 @@ import { getSortedPostsData } from "../lib/posts";
 import Images from "../components/images";
 
 const imageList = [
-  ["/images/r3f-project.gif", "https://r3f-project.vercel.app/"],
-  ["/images/trappist-1.gif", "https://fp-experience.vercel.app/"],
-  ["/images/sb-129.gif", "https://www.sb-129.com/"],
-  ["/images/paddle/paddle-1.gif", "https://paddle-olive.vercel.app/"],
-  ["/images/paddle/paddle-future.gif", "https://paddle-olive.vercel.app/"],
-  ["/images/pepes-room.gif", "https://www.pepes-room.vercel.app/"],
-  ["/images/ragdoll-example.gif", "https://www.ragdoll-example.vercel.app/"],
-  ["/images/watdo.gif", "https://www.watdo.me/"],
-  ["/images/venom-game.gif", "https://portfolio-alpha-five-91.vercel.app/game"],
+  ["/images/r3f-project.gif", "https://r3f-project.vercel.app/", true],
+  ["/images/trappist-1.gif", "https://fp-experience.vercel.app/", true],
+  ["/images/sb-129.gif", "https://www.sb-129.com/", true],
+  ["/images/paddle/paddle-1.gif", "https://paddle-olive.vercel.app/", true],
+  [
+    "/images/paddle/paddle-future.gif",
+    "https://paddle-olive.vercel.app/",
+    true,
+  ],
+  ["/images/pepes-room.gif", "https://www.pepes-room.vercel.app/", false],
+  [
+    "/images/ragdoll-example.gif",
+    "https://www.ragdoll-example-6arz.vercel.app/",
+    false,
+  ],
+  ["/images/watdo.gif", "https://www.watdo.me/", true],
+  // [
+  //   "/images/venom-game.gif",
+  //   "https://portfolio-alpha-five-91.vercel.app/game",
+  //   true,
+  // ],
 ];
 
 // const paddleImageList = [
