@@ -10,15 +10,19 @@ const imageList = [
   ["/images/r3f-project.gif", "https://r3f-project.vercel.app/"],
   ["/images/trappist-1.gif", "https://fp-experience.vercel.app/"],
   ["/images/sb-129.gif", "https://www.sb-129.com/"],
-  // ["/images/venom-game.gif", "https://www.jerryxia.com/game"],
-  // ["/images/mask.gif", "https://three-js-portfolio-zeta.vercel.app/"],
+  ["/images/paddle/paddle-1.gif", "https://paddle-olive.vercel.app/"],
+  ["/images/paddle/paddle-future.gif", "https://paddle-olive.vercel.app/"],
+  ["/images/pepes-room.gif", "https://www.pepes-room.vercel.app/"],
+  ["/images/ragdoll-example.gif", "https://www.ragdoll-example.vercel.app/"],
+  ["/images/watdo.gif", "https://www.watdo.me/"],
+  ["/images/venom-game.gif", "https://portfolio-alpha-five-91.vercel.app/game"],
 ];
 
-const paddleImageList = [
-  ["/images/paddle/paddle-1.gif", "https://paddle-olive.vercel.app/"],
-  ["/images/paddle/paddle-2.png", "https://paddle-olive.vercel.app/"],
-  ["/images/paddle/paddle-3.png", "https://paddle-olive.vercel.app/"],
-];
+// const paddleImageList = [
+//   ["/images/paddle/paddle-1.gif", "https://paddle-olive.vercel.app/"],
+//   ["/images/paddle/paddle-2.png", "https://paddle-olive.vercel.app/"],
+//   ["/images/paddle/paddle-3.png", "https://paddle-olive.vercel.app/"],
+// ];
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -35,7 +39,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div className={utilStyles.images}>
+      {/* <div className={utilStyles.images}>
         <Images images={paddleImageList} />
       </div>
       <section className={utilStyles.lowerSection}>
@@ -44,13 +48,15 @@ export default function Home({ allPostsData }) {
           Based off Paper Mill Lake in Nova Scotia.
         </p>
       </section>
-      <div className={utilStyles.divider} />
+      <div className={utilStyles.divider} /> */}
       <div className={utilStyles.images}>
         <Images images={imageList} />
       </div>
       <section className={utilStyles.lowerSection}>
-        <h1 className={utilStyles.heading}>Three.js</h1>
-        <p className={utilStyles.paragraph}>Three recent projects using R3F.</p>
+        <h1 className={utilStyles.heading}>Projects</h1>
+        <p className={utilStyles.paragraph}>
+          A collection from 2023 until now.
+        </p>
       </section>
       <div className={utilStyles.divider} />
       <section className={utilStyles.section}>
