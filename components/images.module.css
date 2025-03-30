@@ -15,10 +15,6 @@
   cursor: pointer;
 }
 
-.nonClickable {
-  cursor: default;
-}
-
 @media (max-width: 600px) {
   .gallery {
     display: flex;
