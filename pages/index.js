@@ -9,14 +9,11 @@ import Images from "../components/images";
 const imageList = [
   ["/images/r3f-project.gif", "https://r3f-project.vercel.app/"],
   ["/images/trappist-1.gif", "https://fp-experience.vercel.app/"],
-  ["/images/sb-129.gif", "https://www.sb-129.com/"],
+  ["/images/sb-129.gif", "https://sb-129.vercel.app/"],
   ["/images/paddle/paddle-1.gif", "https://paddle-olive.vercel.app/"],
   ["/images/paddle/paddle-future.gif", "https://paddle-olive.vercel.app/"],
   ["/images/pepes-room.gif", "https://github.com/jerryliangxia/pepes-room"],
-  [
-    "/images/ragdoll-example.gif",
-    "https://github.com/jerryliangxia/ragdoll-example",
-  ],
+  ["/images/ragdoll-example.gif", "https://ragdoll-example.vercel.app/"],
   ["/images/watdo.gif", "https://www.watdo.me/"],
   // ["/images/venom-game.gif", "https://portfolio-alpha-five-91.vercel.app/game"],
 ];
