@@ -1,1 +1,1 @@
-[Jerry Xia](https://portfolio-v2-eosin-eight.vercel.app/).
+[Jerry Xia](https://portfolio-v2-eosin-eight.vercel.app/)

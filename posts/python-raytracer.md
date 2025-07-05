@@ -3,11 +3,10 @@ title: "Python Raytracer"
 date: "2024-08-27"
 ---
 
-<!-- After building a rasterizer for `.obj` files:
+<!-- Rasterizer for `.obj` files:
 
 ![Rasterizer](/images/python-raytracer/rasterizer.gif)
-
-My focus shifted to building a raytracer.  -->
+ -->
 
 You can find the code for this raytracer [here](https://github.com/jerryliangxia/PythonRayTracer).
 
