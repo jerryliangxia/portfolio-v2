@@ -3,7 +3,7 @@ title: "Art archive"
 date: "2024-10-23"
 ---
 
-This is a collection of art pieces from high school.
+A collection of art pieces from high school.
 
 ## Blind Contours
 
