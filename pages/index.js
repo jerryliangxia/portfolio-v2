@@ -52,15 +52,15 @@ export default function Home({ allPostsData }) {
       <div className={utilStyles.images}>
         <Images images={imageList} />
       </div>
-      <section className={utilStyles.lowerSection}>
+      {/* <section className={utilStyles.lowerSection}>
         <h1 className={utilStyles.heading}>Projects</h1>
         <p className={utilStyles.paragraph}>
           A collection from 2023 until now.
         </p>
-      </section>
+      </section> */}
       <div className={utilStyles.divider} />
       <section className={utilStyles.section}>
-        <h1 className={utilStyles.heading}>Blog</h1>
+        {/* <h1 className={utilStyles.heading}>Blog</h1> */}
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>

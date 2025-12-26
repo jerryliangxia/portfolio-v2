@@ -5,7 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
 const name = "Jerry Xia";
-const desc = "Developer @ AWS";
+const desc = "Developer";
 export const siteTitle = "Jerry Xia";
 
 export default function Layout({ children, home }) {
@@ -31,7 +31,7 @@ export default function Layout({ children, home }) {
           <>
             <div className={styles.headerContent}>
               <h1 className={utilStyles.heading}>{name}</h1>
-              <p className={utilStyles.paragraph}>{desc}</p>
+              {/* <p className={utilStyles.paragraph}>{desc}</p> */}
             </div>
             <ThemeToggle />
           </>

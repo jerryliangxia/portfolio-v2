@@ -3,7 +3,7 @@ title: "Game dev + AI"
 date: "2024-08-26"
 ---
 
-This past year I've worked on two AI projects. I used Unity.
+This past year I've worked on two AI projects.
 
 # Playing Adversarial Chairs with A-Star Pathfinding
 
@@ -145,4 +145,4 @@ Here's the final scene:
 
 ![HTN take damage](/images/game-dev/htn-planning/5.gif)
 
-You can play the game [here](https://jerrylxia.itch.io/htn-planning-and-reactive-ai-demo) on itch.io. :)
+You can play the game [here](https://jerrylxia.itch.io/htn-planning-and-reactive-ai-demo) on itch.io.

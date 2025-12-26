@@ -8,7 +8,7 @@ date: "2024-08-27"
 ![Rasterizer](/images/python-raytracer/rasterizer.gif)
  -->
 
-You can find the code for this raytracer [here](https://github.com/jerryliangxia/PythonRayTracer).
+code [here](https://github.com/jerryliangxia/PythonRayTracer).
 
 # How Rays are Cast
 
@@ -268,6 +268,6 @@ This creates a realistic depth of field effect:
 
 ![Novel Scene](/images/python-raytracer/novel-scene.png)
 
-# Conclusion
+# Further
 
-This raytracer demonstrates the power of creating realistic images with a simpe set of rules. With further development, procedures to handle HDR mapping, soft shadows, UV mapping and more can be implemented.
+This raytracer demonstrates the power of creating realistic images with a simple set of rules. With more development, procedures to handle HDR mapping, soft shadows, and UV mapping can be done too.

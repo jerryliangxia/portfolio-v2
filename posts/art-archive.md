@@ -3,7 +3,7 @@ title: "Art archive"
 date: "2024-10-23"
 ---
 
-This is a collection of art pieces I did in high school.
+This is a collection of art pieces from high school.
 
 ## Blind Contours
 
@@ -35,7 +35,7 @@ This is a collection of art pieces I did in high school.
 
 ![Charcoal Portrait](/images/art-archive/char2.png)
 
-![Charcoal Portrait 2](/images/art-archive/char3.png)
+<!-- ![Charcoal Portrait 2](/images/art-archive/char3.png) -->
 
 <!-- Reference images:
 
