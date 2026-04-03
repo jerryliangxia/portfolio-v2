@@ -11,12 +11,17 @@
 
 .images {
   margin: 3rem;
+  margin-bottom: 0;
 }
+
+/* removed footer alignment helpers to minimize CSS; using inline styles where needed */
 
 @media (max-width: 600px) {
   .images {
     margin: 1.5rem;
+    margin-bottom: 0;
   }
+  /* footer alignment helpers removed */
 }
 
 .image {
